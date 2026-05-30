@@ -78,6 +78,7 @@
           export GIT_AUTHOR_EMAIL="57576747+soupCodez@users.noreply.github.com"
           git config --global user.email "57576747+soupCodez@users.noreply.github.com"
           git config --global user.name "soupCodez"
+          export GIT_CONFIG_GLOBAL="$HOME/.gitconfig"
 
           echo "Bun:  $(bun --version)"
           echo "Node: $(node -v)"
