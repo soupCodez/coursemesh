@@ -1,6 +1,10 @@
 {
   description = "Course Mesh development environment";
 
+  nixConfig = {
+    netrc-file = "/etc/nix/netrc";
+  };
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
   };
